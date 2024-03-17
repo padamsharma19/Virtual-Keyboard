@@ -183,6 +183,16 @@
             width: 140px ;
         }
 
+        .textarea {
+              width: 700px;
+              height: 50px;
+              padding: 10px;
+              border: 4px dashed #b91c1c;
+              text-size-adjust: auto;
+              font-size: x-large;
+            }
+            .border-indigo{ border-color: #4238ca; }
+
 /* border: 4px solid #ff4c24; */
 
       /*  .input-field {
@@ -213,29 +223,11 @@
     </div> -->
 
     <div class="keyboard-container">
+        <textarea class="textarea" id="mytextarea"
+        placeholder="Enter your message here..."></textarea>
+ </div>
         
-        <style>
-            .textarea {
-              width: 700px;
-              height: 50px;
-              padding: 10px;
-              border: 4px dashed #b91c1c;
-              text-size-adjust: auto;
-              font-size: x-large;
-            }
-            .border-indigo{ border-color: #4238ca; }
-          </style>
-          
-          <textarea class="textarea" id="mytextarea"
-                    placeholder="Enter your message here..."></textarea>
-          
-          <br />
-          
-       
-    </div>
-        
-
-    <div class="keyboard">
+   <div class="keyboard">
 
      <!--   <div class="row">
             <button class="key emoji-btn" onclick="toggleSymbols()">Emoji</button>
